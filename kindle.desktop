@@ -1,0 +1,10 @@
+[Desktop Entry]
+
+Type=Application
+Version=1.0
+Name=Kindle
+Comment=A kindle app for linux
+Exec=sh -c "cd \\$HOME/kindle && nohup npm start &"
+Icon=Kindle
+Terminal=false
+Categories=Education;Languages;
