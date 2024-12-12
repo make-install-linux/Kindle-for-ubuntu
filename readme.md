@@ -1,16 +1,35 @@
 
 # Kindle App for ubuntu
-This is a Kindle app for Ubuntu.
 
-To run this you need to install [nodejs](https://nodejs.org/en/) and [npm](https://www.npmjs.com/)
+A simple Kindle desktop app for Ubuntu based on electron.
 
+Install it easily and start reading on your linux desktop.
 
-To install run the follow:
+## Install
+
+To install this application, you need
+
+- [Ubuntu](https://ubuntu.com/)
+- [Gnome](https://www.gnome.org/)
+- [nodejs](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/)
+
+Then run at your terminal:
 ```bash
-    mkdir -p ~/kindle
-    git clone https://github.com/Dpbm/Kindle-for-ubuntu.git ~/kindle
-    cd ~/kindle
-    bash ./install.sh
+mkdir -p ~/kindle
+git clone https://github.com/Dpbm/Kindle-for-ubuntu.git ~/kindle
+cd ~/kindle
+chmod +x ./install.sh
+./install.sh
 ```
+within a few seconds, the Kindle icon will appear on your applications hub.
 
-then open your kindle app ;)
+## Uninstalling
+
+To uninstall it you may run:
+
+```bash
+cd ~/kindle
+chmod +x uninstall.sh
+./uninstall.sh
+```
