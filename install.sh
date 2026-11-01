@@ -22,7 +22,7 @@ npm i
 log "Giving execution permisions to kindle.sh..."
 chmod +x kindle.sh
 
-log "Intsalling desktop app..."
+log "Installing desktop app..."
 desktop-file-install --dir=$APPLICATIONS_PATH kindle.desktop
 
 log "Updating apps..."

@@ -1,10 +1,9 @@
 [Desktop Entry]
-
 Type=Application
 Version=1.0
 Name=Kindle
 Comment=A kindle app for linux
-Exec=sh -c "\\$HOME/kindle/kindle.sh"
+Exec=bash -c "cd ~/Kindle-for-ubuntu && ./kindle.sh"
 Icon=Kindle
 Terminal=false
 Categories=Education;Languages;
